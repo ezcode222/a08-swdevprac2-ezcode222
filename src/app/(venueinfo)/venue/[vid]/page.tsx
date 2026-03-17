@@ -1,5 +1,7 @@
 import getVenue from "../../../../libs/getVenue";
 
+export const dynamic = "force-dynamic";
+
 function normalizeDriveImage(url: string) {
   const idFromQuery = url.match(/[?&]id=([^&]+)/);
   if (idFromQuery) {
